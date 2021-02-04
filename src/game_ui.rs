@@ -217,7 +217,7 @@ fn notification_system(
             if let WinStatus::Playing = game_ui.win_status {
                 for (mut vis, mut text) in text.iter_mut() {
                     vis.is_visible = true;
-                    text.value = "Next wave incomming!".to_owned();
+                    text.value = "Next wave incoming!".to_owned();
                     game_ui.fade_timer.reset();
                 }
             }
