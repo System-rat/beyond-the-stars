@@ -1,0 +1,10 @@
+[package]
+name = "beyond-the-stars"
+version = "0.1.0"
+authors = ["System.rat <system.rodent@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "Small test game using the bevy engine"
+
+[dependencies]
+bevy = "0.4"
